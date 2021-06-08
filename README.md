@@ -3,9 +3,11 @@
 
 Данные для работы приложения берутся из файла <.yaml>
 # <script.yaml>
-1 - список шаблонов:  [0] - wrd_template_name.docx [1] - exl_template_name.xlsx;
+1 - список шаблонов:  [0] - wrd_template_name.docx [1] - exl_template_name.xlsx;  
+
 2 - список сигнатур для замены (в нужных местах в файле-шаблоне word и/или excel, вставляете эти сигнатуры и работаете)
-    пример сигнатур: [0] - $a1 [1] - $a2;
+    пример сигнатур: [0] - $a1 [1] - $a2;  
+    
 3 - список имен новых файлов и вставляемых данных: [0] - new_file_name.docx [1] - data_for_paste [2] - data_for_paste [3] - end_signature
                                                    [4] - new_file_name.xlsx [5] - data_for_paste [3] - end_signature
      new_file_name - имя нового файла обязательно указывать расширение файла, после имени файла обязательно должны 
